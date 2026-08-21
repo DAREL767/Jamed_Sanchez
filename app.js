@@ -16,4 +16,4 @@ function saludarUnaVez() {
   if (!yaSaludo) { saludar(); yaSaludo = true; }
 }
 
-document.addEventListener("DOMContentLoaded", saludar);
+document.addEventListener("DOMContentLoaded", saludarUnaVez);
